@@ -1,5 +1,6 @@
 {
   "logout": "Logout",
+  "language": "Language",
   "appTitle": "Supplier OS Application",
   "routes": {
     "/home": "Bug Bounty Challenge"
