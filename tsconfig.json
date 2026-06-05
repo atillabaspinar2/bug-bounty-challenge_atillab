@@ -1,14 +1,10 @@
 {
-    "include": [
-        "./src/**/*"
-    ],
-    "compilerOptions": {
-        "strict": true,
-        "esModuleInterop": true,
-        "lib": [
-            "dom",
-            "esnext"
-        ],
-        "jsx": "react-jsx"
-    }
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "lib": ["dom", "esnext"],
+    "jsx": "react-jsx",
+    "resolveJsonModule": true
+  }
 }
