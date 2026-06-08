@@ -1,6 +1,6 @@
 import { render, screen, act } from '@testing-library/react';
 import AppHeader from '../components/AppHeader';
-import { TestWrapper } from './testUtils';
+import { TestWrapper } from '../testUtils';
 
 const mockUser = { firstName: 'Aria', lastName: 'Test', eMail: 'a@b.com' };
 

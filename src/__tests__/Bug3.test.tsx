@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import UserStore from '../api/services/User/store';
 import AvatarMenu from '../components/AvatarMenu';
-import { TestWrapper } from './testUtils';
+import { TestWrapper } from '../testUtils';
 
 // --- Bug 3a: UserStore typo (this.urser → this.user) ---
 

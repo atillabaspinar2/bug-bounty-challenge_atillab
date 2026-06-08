@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import Home from '../pages/Home';
-import { TestWrapper } from './testUtils';
+import { TestWrapper } from '../testUtils';
 
 test('intro text renders "known" inside a <strong> element', () => {
   const { container } = render(<Home />, { wrapper: TestWrapper });
